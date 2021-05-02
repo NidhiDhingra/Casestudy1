@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="51.696">
+    <testcase classname="Test Signup" name="Signup successfully with valid data and validate the email and send to valid id" time="51.363">
+        <system-out>
+            <![CDATA[Given I should be on the Screen with signup.................................passed
+When I click on Signup button...............................................passed
+And I Enter First name as "Nidhi1"..........................................passed
+And I Enter Last name as "Nidhi1"...........................................passed
+And I Enter e-mail as "nidhi1@nidhi1.com"...................................passed
+And I Enter Username as "ndhingra1".........................................passed
+And I Enter Pass as "abcd"..................................................passed
+And I Enter Confirm Pass as "abcd"..........................................passed
+And I click on Register button..............................................passed
+And I click on the picture button...........................................passed
+And I click on the inbox button.............................................passed
+And I click on the compose button...........................................passed
+And I click on sendto as "nidhi1@nidhi1.com"................................passed
+And I enter the subject as "Hi".............................................passed
+And I click on the Send Message button......................................passed
+Then I should see the acknowledgement window as "The message has been sent to Nidhi1 Nidhi1 (ndhingra1)".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
